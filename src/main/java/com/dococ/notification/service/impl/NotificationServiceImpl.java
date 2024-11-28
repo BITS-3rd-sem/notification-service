@@ -21,7 +21,6 @@ public class NotificationServiceImpl implements NotificationService {
             message.setTo(notificationDTO.getReceiverEmail());
             message.setSubject(notificationDTO.getEmailSubject());
             message.setText(notificationDTO.getEmailBody());
-System.out.println("done");
             emailSender.send(message);
 
             return "Email notification sent successfully";
