@@ -12,6 +12,7 @@
 	<artifactId>notification</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>notification</name>
+	<packaging>jar</packaging>
 	<description>Notification service for doctor appointment app</description>
 	<url/>
 	<licenses>
